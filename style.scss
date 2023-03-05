@@ -1,0 +1,16 @@
+
+// biến
+@import "bien"; 
+// import
+@import "header";
+//mixin
+@import "mixin";
+
+footer
+{
+    @include containe();
+    display: $display;
+    margin: 0px auto;
+    max-width: 1000px;
+    justify-content: space-between;
+}
